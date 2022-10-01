@@ -1,0 +1,31 @@
+{
+  "name": "usof_back",
+  "version": "1.0.0",
+  "description": "usof_api",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.ucode.world:connect-khpi/connect-fullstack-usof-backend/anikolenko.git"
+  },
+  "keywords": [
+    "api",
+    "usof",
+    "backend"
+  ],
+  "author": "anikolenko",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sqlite3": "^5.1.1"
+  }
+}
